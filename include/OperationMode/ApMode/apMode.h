@@ -44,7 +44,7 @@ const char HTML_PAGE_MAIN_HEADER[] PROGMEM = R"(<!DOCTYPE html>
         </body>
     </html>)";
 
-const char HTML_PAGE_MAIN_TITLE[] PROGMEM = R"(<h3 style="text-align: center;">ATM MONITOR</h3>)";
+const char HTML_PAGE_MAIN_TITLE[] PROGMEM = R"(<h3 style="text-align: center;">AthenasArch - Leonardo Hilgemberg</h3>)";
 
 const char HTML_PAGE_ADITIONAL_TEXT_INI[] PROGMEM = R"(
     <p style="text-align: center;">

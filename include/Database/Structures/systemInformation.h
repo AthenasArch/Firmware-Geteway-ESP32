@@ -14,7 +14,7 @@
 
 #include <Arduino.h>
 
-#define FIRMWARE_VERSION "4.122" // 
+#define FIRMWARE_VERSION "4.123" // 
 
 const char COMPILE_TM[] = __DATE__ " " __TIME__;
 

@@ -14,7 +14,7 @@
     const char serverName[] = "api.tago.io";  //Change to your server domain
     #define SERVER_PORT 80 // change to your server's port
 #elif defined(USE_SERVER_ETC)
-    const char serverName[] = "easytennis.onrender.com";  //Change to your server domain
+    const char serverName[] = "easytennis-api.herokuapp.com";  //Change to your server domain
     #define SERVER_PORT 80 // change to your server's port
 #else
     DEFINA_UM_SERVIDOR

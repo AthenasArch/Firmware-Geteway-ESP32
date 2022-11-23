@@ -3,17 +3,16 @@
 
 void etcServer_payloadFmt(String*payload, String var, String value);
 
-
-// User-Agent: insomnia/2022.6.0
-// Content-Type: application/json
-// Accept: /
-// Content-Length: 29
-
+/**
+ * @brief 
+ * 
+ * @param serverBuff 
+ * @param postDataBuff 
+ */
 void etcServer_getServer(String *serverBuff, String *postDataBuff){
     *serverBuff = "POST /gadgets HTTP/1.1\r\n";
     *serverBuff += "Host: " + String(serverName) + "\r\n";
     *serverBuff += "Content-Type: application/json\r\n";
-    *serverBuff += "Accept: /\r\n";
     *serverBuff += "Content-Length: " + String(postDataBuff->length()) + "\r\n"; 
     *serverBuff += "\r\n";
     *serverBuff += *postDataBuff;
